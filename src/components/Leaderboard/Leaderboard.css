@@ -1,0 +1,40 @@
+
+.leaderboard {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leaderboard h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .leaderboard ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .leaderboard li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .leaderboard li:last-child {
+    border-bottom: none;
+  }
+  
+  .leaderboard li span {
+    color: #555;
+  }
+  
+  .leaderboard li span:first-child {
+    font-weight: bold;
+    color: #1e90ff;
+  }
+  
